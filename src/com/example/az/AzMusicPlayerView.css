@@ -1,0 +1,33 @@
+.control {
+	-fx-graphic: url('/bg.png');
+	-fx-backgound-repeat: repeat-x;
+}
+
+.title {
+	-fx-backgound-color: url("/bg.color");
+}
+
+.back {
+	-fx-graphic: url('/back.png');
+    -fx-background-color: null;
+}
+
+.play {
+    -fx-graphic: url('/play.png');
+    -fx-background-color: null;
+}
+
+.play:selected {
+    -fx-graphic: url('/pause.png');
+    -fx-background-color: null;
+}
+
+.stop {
+    -fx-graphic: url('/stop.png');
+    -fx-background-color: null;
+}
+
+.next {
+	-fx-graphic: url('/next.png');
+    -fx-background-color: null;
+}
